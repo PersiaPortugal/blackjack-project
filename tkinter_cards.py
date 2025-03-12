@@ -94,7 +94,7 @@ dealers_label.pack()
 players_label = tk.Label(players_frame , image = card_back , bd = 0)
 players_label.pack()
 
-hit_button = tk.Button(butto_frame, text = 'Hit' , command = test)
+hit_button = tk.Button(butto_frame, text = 'Hit' , command = test_cards)
 hit_button.pack(pady = 20 ,ipadx = 20 )
 
 stand_button = tk.Button(butto_frame, text = 'Stand' , command = lambda : webbrowser.open('https://www.youtube.com/watch?v=S06IYs3csWI') )
